@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px 30px;
+    padding: 1%;
+}
+.container{
+    background-color: rgb(99, 149, 140);
+    padding: 5px 20px 15px 20px;
+}
+
+
+.KazzPay{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+h2{
+    font-style: italic;
+    color: crimson;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+input[type="text"],
+input[type="email"], 
+input[type="password"], 
+input[type="number"],
+select,textarea {
+    padding: 12px;
+    width: 100%;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: rgb(102, 102, 199);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1% 2%;
+    width: 100%;
+    margin: 1%;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(98, 220, 17);
+}
